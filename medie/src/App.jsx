@@ -8,6 +8,8 @@ import { Infopage } from './pages/Infopage/Infopage';
 import { Ticketpage } from './pages/Ticketpage/Ticketpage';
 import { Loginpage } from './pages/Loginpage/Loginpage';
 import { TicketCheckoutpage } from "./pages/TicketCheckoutpage/TicketCheckoutpage";
+import { MyEvents } from "./pages/MyEvents/MyEvents";
+
 
 function App() {
   return (
@@ -26,12 +28,13 @@ function App() {
               element={<TicketCheckoutpage />}
             />
             <Route path="/login" element={<Loginpage />} />
+            <Route path="/myevents" element={<MyEvents />} />
+
           </Route>
         </Routes>
       </Router>
     </>
   );
 }
-
 export default App;
 

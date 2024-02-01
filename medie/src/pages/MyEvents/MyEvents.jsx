@@ -1,3 +1,4 @@
+import style from "./MyEvents.module.scss";
 
  export const MyEvents =() => {
 
