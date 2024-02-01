@@ -1,0 +1,29 @@
+// .infopage {
+//   }
+  .gridContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px; 
+  }
+  .mapContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .mapImage {
+    width: 48%; 
+    height: auto;
+  }
+  
+  .addressContainer {
+    width: 45%; 
+  }
+  
+  .address {
+    font-size: 16px;
+    color: #555;
+  }
+  
